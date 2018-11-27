@@ -2,7 +2,7 @@
   <div id="app">
     <nav-bar/>
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    
+    <router-view/>
   </div>
 </template>
 
