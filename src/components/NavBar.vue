@@ -7,6 +7,8 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     
         <router-link class="nav-link" to="/cars">Cars</router-link>
+
+        <router-link class="nav-link" to="/add">Add Cars</router-link>
       
         <a class="nav-link" href="#">Features</a>
         

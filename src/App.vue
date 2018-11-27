@@ -9,12 +9,13 @@
 <script>
 import NavBar from './components/NavBar.vue';
 import AppCars from './components/AppCars.vue';
-
+import AddCars from './components/AddCars.vue';
 export default {
   name: 'app',
   components: {
     NavBar,
-    AppCars
+    AppCars,
+    AddCars
     
   }
 }
