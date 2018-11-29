@@ -73,6 +73,9 @@ export default {
                 }).catch(error =>{
                     console.log(error.response)
                 })
+        },
+        resetForm(){
+            this.newCar={}
         }
     }   
 }  
