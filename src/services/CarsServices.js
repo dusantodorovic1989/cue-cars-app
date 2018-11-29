@@ -8,6 +8,9 @@ class CarsServices {
        return axios.get('cars')
             
     }
+    add(newCar){
+        return axios.post('cars',newCar)
+    }
 }
 
 export const cars = new CarsServices();
